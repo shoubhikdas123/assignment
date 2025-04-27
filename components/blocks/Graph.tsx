@@ -70,7 +70,7 @@ export default function Chart({percentile}:types) {
             content={({ x, y, value }) => {
               if (value === percentile) {
                 return (
-                  <text x={x} y={y - 10} fill="gray" fontSize={12}>
+               <text x={x} y={(Number(y) ?? 0) - 10} fill="gray" fontSize={12}>
                     your percentile
                   </text>
                 )
