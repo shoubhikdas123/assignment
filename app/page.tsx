@@ -115,7 +115,7 @@ export default function TabNavigationShadcn() {
             </CardContent>
           </Card>
           
-          {/* Comparison Graph */}
+        
           <Card>
             <CardHeader className="pb-2 flex flex-row items-center justify-between">
               <CardTitle className=" font-bold">Comparison Graph</CardTitle>
@@ -133,7 +133,7 @@ export default function TabNavigationShadcn() {
           </Card>
         </div>
         
-        {/* Right Column - Analysis */}
+ 
         <div className="space-y-6">
           {/* Syllabus Analysis */}
           <Card>
